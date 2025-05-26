@@ -18,7 +18,7 @@ const AppLayout = () => {
 
   return (
     <Layout>
-      <BarComponent searchOptions={{ enabled: true }} />
+      <BarComponent searchOptions={{ enabled: false }} />
       <Sidebar />
       <Main>
         <Content>
