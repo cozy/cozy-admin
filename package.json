@@ -11,7 +11,8 @@
     "analyze": "RSDOCTOR=true yarn build",
     "lint": "yarn lint:js && yarn lint:styles",
     "lint:js": "eslint '{src,test}/**/*.{js,jsx,ts,tsx}'",
-    "lint:styles": "stylint src/styles --config ./.stylintrc"
+    "lint:styles": "stylint src/styles --config ./.stylintrc",
+    "cozyPublish": "cozy-app-publish --token $REGISTRY_TOKEN --prepublish downcloud"
   },
   "repository": {
     "type": "git",
@@ -55,6 +56,7 @@
     "typescript": "4.9.5"
   },
   "dependencies": {
+    "cozy-app-publish": "^0.41.0",
     "cozy-bar": "^18.0.0",
     "cozy-client": "^57.5.0",
     "cozy-dataproxy-lib": "^4.1.0",
