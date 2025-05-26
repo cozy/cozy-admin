@@ -1,12 +1,8 @@
 @require 'settings/breakpoints.styl'
 
+:root
+    --sidebarHeight .01px // to avoid replacing by `0` when building the file
+
 body
     display flex
     height 100vh
-
-iframe
-    display flex
-    flex 1
-
-    +medium-screen()
-        padding-top 3rem

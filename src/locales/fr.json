@@ -1,6 +1,18 @@
 {
   "nav": {
-    "welcome": "Welcome",
-    "contacts": "Contacts"
+    "global": "global",
+    "configuration": "Configuration de la collaboration",
+    "others": "autres",
+    "company": "Entreprise",
+    "users": "Utilisateurs",
+    "plans": "Plans et facturation",
+    "security": "Sécurité & accès",
+    "chat": "Chat",
+    "mail": "Mail",
+    "drive": "Drive",
+    "passwords": "Passwords",
+    "manuel": "Manuel administrateur",
+    "contact": "Contactez-nous",
+    "logout": "Déconnexion"
   }
 }

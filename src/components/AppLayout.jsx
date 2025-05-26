@@ -19,7 +19,7 @@ const AppLayout = () => {
   return (
     <Layout>
       <BarComponent searchOptions={{ enabled: false }} />
-      <Sidebar />
+      {!isMobile && <Sidebar />}
       <Main>
         <Content>
           {isMobile && (
