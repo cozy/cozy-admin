@@ -1,0 +1,24 @@
+{
+  "name": "Admin",
+  "name_prefix": "Twake",
+  "slug": "admin",
+  "icon": "assets/twakechat.png",
+  "categories": [],
+  "version": "0.1.0",
+  "licence": "AGPL-3.0",
+  "editor": "",
+  "source": "",
+  "developer": {
+    "name": "Twake Workplace",
+    "url": "https://twake.app"
+  },
+  "routes": {
+    "/": {
+      "folder": "/",
+      "index": "index.html",
+      "public": false
+    },
+  },
+  "permissions": {
+  }
+}
