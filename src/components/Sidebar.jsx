@@ -6,12 +6,12 @@ import Nav, {
   NavItem,
   NavIcon,
   NavText,
-  genNavLink
+  genNavLinkForV6
 } from 'cozy-ui/transpiled/react/Nav'
 import UISidebar from 'cozy-ui/transpiled/react/Sidebar'
 import { useI18n } from 'cozy-ui/transpiled/react/providers/I18n'
 
-const NavLink = genNavLink(RouterLink)
+const NavLink = genNavLinkForV6(RouterLink)
 
 const Sidebar = () => {
   const { t } = useI18n()
