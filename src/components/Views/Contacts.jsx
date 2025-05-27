@@ -13,7 +13,7 @@ import Typography from 'cozy-ui/transpiled/react/Typography'
 
 import { buildContactsQuery } from '@/queries/queries'
 
-export const Contacts = () => {
+const Contacts = () => {
   const contactQuery = buildContactsQuery()
 
   const { fetchStatus, data } = useQuery(
@@ -50,3 +50,5 @@ export const Contacts = () => {
     </div>
   )
 }
+
+export default Contacts

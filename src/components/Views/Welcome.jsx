@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import Button from 'cozy-ui/transpiled/react/Buttons'
 import Typography from 'cozy-ui/transpiled/react/Typography'
 
-export const Welcome = () => {
+const Welcome = () => {
   const navigate = useNavigate()
 
   const onClick = () => {
@@ -20,3 +20,5 @@ export const Welcome = () => {
     </div>
   )
 }
+
+export default Welcome
