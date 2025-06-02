@@ -7,8 +7,6 @@ import { initTranslation } from 'cozy-ui/transpiled/react/providers/I18n'
 
 import manifest from '../../../manifest.webapp'
 
-import schema from '@/doctypes'
-
 /**
  * Make and returns cozy client instance
  * @param {HTMLElement} container - application container
@@ -25,8 +23,7 @@ const makeClient = container => {
     appMetadata: {
       slug: manifest.name,
       version: manifest.version
-    },
-    schema
+    }
   })
 
   return client
