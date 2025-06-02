@@ -1,4 +1,7 @@
 {
+  "common": {
+    "previous": "Previous"
+  },
   "nav": {
     "global": "global",
     "configuration": "Collaboration configuration",
