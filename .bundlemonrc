@@ -1,0 +1,55 @@
+{
+  "baseDir": "./build",
+  "pathLabels": {
+    "chunkId": "[\\d-]+"
+  },
+  "files": [
+    {
+      "path": "static/js/<chunkId>.<hash>.js"
+    },
+    {
+      "path": "static/js/cozy.<hash>.js"
+    },
+    {
+      "path": "static/js/main.<hash>.js"
+    },
+    {
+      "path": "static/js/lib-react.<hash>.js"
+    },
+    {
+      "path": "static/js/lib-router.<hash>.js"
+    },
+    {
+      "path": "static/css/cozy.<hash>.css"
+    },
+    {
+      "path": "static/css/main.<hash>.css"
+    },
+    {
+      "path": "<hash>.js"
+    },
+    {
+      "path": "index.html"
+    },
+    {
+      "path": "assets/manifest.json"
+    },
+    {
+      "path": "manifest.webapp"
+    }
+  ],
+  "groups": [
+      {
+          "path": "**/*.js"
+      },
+      {
+          "path": "**/*.css"
+      },
+      {
+          "path": "**/*.{png,svg,ico}"
+      }
+  ],
+  "reportOutput": [
+    "github"
+  ]
+}
