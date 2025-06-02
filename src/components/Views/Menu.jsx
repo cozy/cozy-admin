@@ -27,7 +27,7 @@ const Menu = () => {
   const { t } = useI18n()
 
   return (
-    <div className="u-p-1">
+    <>
       <List
         subheader={
           <ListSubheader className="u-uppercase">
@@ -161,7 +161,7 @@ const Menu = () => {
           </ListItemIcon>
         </ListItem>
       </List>
-    </div>
+    </>
   )
 }
 
