@@ -6,8 +6,8 @@
   "categories": [],
   "version": "0.1.0",
   "licence": "AGPL-3.0",
-  "editor": "",
-  "source": "",
+  "editor": "Cozy",
+  "source": "https://github.com/cozy/cozy-admin",
   "developer": {
     "name": "Twake Workplace",
     "url": "https://twake.app"
