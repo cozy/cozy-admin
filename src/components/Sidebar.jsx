@@ -11,6 +11,7 @@ import HelpOutlinedIcon from 'cozy-ui/transpiled/react/Icons/HelpOutlined'
 import Key2Icon from 'cozy-ui/transpiled/react/Icons/Key2'
 import LogoutIcon from 'cozy-ui/transpiled/react/Icons/Logout'
 import OpenwithIcon from 'cozy-ui/transpiled/react/Icons/Openwith'
+import PeopleIcon from 'cozy-ui/transpiled/react/Icons/People'
 import PeoplesIcon from 'cozy-ui/transpiled/react/Icons/Peoples'
 import SecurityIcon from 'cozy-ui/transpiled/react/Icons/Security'
 import ListItem from 'cozy-ui/transpiled/react/ListItem'
@@ -43,8 +44,14 @@ const Sidebar = () => {
         </NavItem>
         <NavItem>
           <NavLink to="/users">
-            <NavIcon icon={PeoplesIcon} />
+            <NavIcon icon={PeopleIcon} />
             <NavText>{t('nav.users')}</NavText>
+          </NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to="/teams">
+            <NavIcon icon={PeoplesIcon} />
+            <NavText>{t('nav.teams')}</NavText>
           </NavLink>
         </NavItem>
         <NavItem>
