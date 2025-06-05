@@ -14,7 +14,10 @@ const Users = () => {
       type={CONTACTS_DOCTYPE}
       iframeProps={{
         wrapperProps: {
-          style: { height: `calc(100vh - ${isMobile ? '48px' : '80px'}` }
+          style: {
+            height: `calc(100vh - ${isMobile ? '48px' : '80px'}`,
+            zIndex: 'var(--zIndex-modal)'
+          }
         }
       }}
       onCancel={() => {}}

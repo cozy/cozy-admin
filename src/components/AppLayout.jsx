@@ -14,6 +14,7 @@ import Alerter from 'cozy-ui/transpiled/react/deprecated/Alerter'
 import useBreakpoints from 'cozy-ui/transpiled/react/providers/Breakpoints'
 import { useI18n } from 'cozy-ui/transpiled/react/providers/I18n'
 
+import IntentBackdrop from '@/components/IntentBackdrop'
 import Sidebar from '@/components/Sidebar'
 
 const AppLayout = () => {
@@ -48,6 +49,7 @@ const AppLayout = () => {
         </>
       )}
       {isDesktop && <Sidebar />}
+      {isDesktop && <IntentBackdrop />}
       <Main>
         <Content>
           <Outlet />
