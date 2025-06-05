@@ -13,6 +13,7 @@ import HelpOutlinedIcon from 'cozy-ui/transpiled/react/Icons/HelpOutlined'
 import Key2Icon from 'cozy-ui/transpiled/react/Icons/Key2'
 import LogoutIcon from 'cozy-ui/transpiled/react/Icons/Logout'
 import OpenwithIcon from 'cozy-ui/transpiled/react/Icons/Openwith'
+import PeopleIcon from 'cozy-ui/transpiled/react/Icons/People'
 import PeoplesIcon from 'cozy-ui/transpiled/react/Icons/Peoples'
 import RightIcon from 'cozy-ui/transpiled/react/Icons/Right'
 import SecurityIcon from 'cozy-ui/transpiled/react/Icons/Security'
@@ -50,6 +51,16 @@ const Menu = () => {
             <Icon icon={PeoplesIcon} />
           </ListItemIcon>
           <ListItemText primary={t('nav.users')} />
+          <ListItemIcon>
+            <Icon icon={RightIcon} />
+          </ListItemIcon>
+        </ListItem>
+        <Divider variant="inset" />
+        <ListItem button component={NavLink} to="/teams">
+          <ListItemIcon>
+            <Icon icon={PeopleIcon} />
+          </ListItemIcon>
+          <ListItemText primary={t('nav.teams')} />
           <ListItemIcon>
             <Icon icon={RightIcon} />
           </ListItemIcon>
